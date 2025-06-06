@@ -13,4 +13,5 @@ export interface GymStudent {
   birthDate?: Date
   notes?: string
   emergencyContactName?: string
+  emergencyContactPhone?: string
 }
