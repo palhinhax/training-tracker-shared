@@ -1,4 +1,4 @@
-import { PhotoType } from '../../common/enums'
+import { PhotoType } from '../common/enums'
 
 export interface Photo {
   id: string

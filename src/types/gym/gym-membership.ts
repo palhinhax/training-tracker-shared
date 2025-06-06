@@ -1,6 +1,6 @@
-import { UserSummary } from '../../user/user'
+import { UserSummary } from '../user/user'
 import { GymSummary } from './gym'
-import { GymPlanSummary } from '../../plan/gym-plan'
+import { GymPlanSummary } from '../gym/gym-plan'
 
 export interface GymMembershipSummary {
   id: string
