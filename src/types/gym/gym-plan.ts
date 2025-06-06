@@ -1,4 +1,4 @@
-import { PlanType } from '../../common/enums'
+import { PlanType } from '../common/enums'
 
 export interface GymPlanSummary {
   id: string
