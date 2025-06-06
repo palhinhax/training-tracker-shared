@@ -12,4 +12,5 @@ export interface GymStudent {
   membershipExpiresAt?: Date
   birthDate?: Date
   notes?: string
+  emergencyContactName?: string
 }
