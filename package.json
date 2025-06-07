@@ -1,11 +1,10 @@
 {
   "name": "@palhinhax/training-tracker-shared",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prepare": "npm run build",
     "release:patch": "npm version patch && npm publish",
@@ -15,9 +14,6 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "typescript": "^5.8.3"
